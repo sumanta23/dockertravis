@@ -1,0 +1,4 @@
+flask
+cov-core==1.7
+coverage==3.7
+requests==2.8.0
