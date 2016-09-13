@@ -1,3 +1,2 @@
-![travis](https://travis-ci.org/MBuffenoir/Flask-demo-app.svg?branch=master)
-
+Build: [![Build Status](https://travis-ci.org/sumanta23/dockertravis.svg)](https://travis-ci.org/sumanta23/dockertravis)
 A dead simple Flask application
