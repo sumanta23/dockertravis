@@ -34,4 +34,5 @@ class FlaskAppTests(unittest.TestCase):
         result = self.app.get('/')
 
         # assert the response data
-        self.assertEqual(result.data, "Hi ! I\'m a Flask application. I was automatically tested and deployed using Travis.")
+        self.assertEqual(result.data.decode("utf-8"), 'Hi ! I\'m a Flask application. I was automatically tested and deployed using Travis.')
+
